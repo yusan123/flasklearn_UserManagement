@@ -3,9 +3,9 @@
 # date：2019/4/24 20:15
 
 
-from  flask import request, render_template, Flask, redirect
+from flask import request, render_template, Flask, redirect
 
-from src.dao import user_dao
+from dao import user_dao
 
 app = Flask(__name__)
 

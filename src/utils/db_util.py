@@ -5,7 +5,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from src.setting import *
+from setting import *
 
 
 def get_session():

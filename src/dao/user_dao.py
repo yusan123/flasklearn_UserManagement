@@ -4,7 +4,7 @@
 
 from model.user import User
 
-from src.utils.db_util import get_session
+from utils.db_util import get_session
 
 session = get_session()
 
